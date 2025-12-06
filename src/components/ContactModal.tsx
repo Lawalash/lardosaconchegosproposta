@@ -1,6 +1,9 @@
 import { useMemo, useState } from 'react';
 import './ContactModal.css';
 
+const MAIN_PHONE = '558398861793';
+const PARTNER_PHONE = '558389060130';
+
 const CONTRACT_TEXT = `CONTRATO DE PRESTAÇÃO DE SERVIÇOS – DESENVOLVIMENTO DE SITE INSTITUCIONAL
 
 1. DAS PARTES
@@ -178,10 +181,10 @@ export function ContactModal({ open, onClose }: ContactModalProps) {
           <button className="secondary" onClick={handleDownload}>
             Baixar contrato
           </button>
-          <button className="primary" onClick={() => handleSendApproval('558389060130')}>
+          <button className="primary" onClick={() => handleSendApproval(MAIN_PHONE)}>
             Encaminhar resposta (Ricardo)
           </button>
-          <button className="primary" onClick={() => handleSendApproval('558389060130')}>
+          <button className="primary" onClick={() => handleSendApproval(PARTNER_PHONE)}>
             Encaminhar resposta (Sócio)
           </button>
         </div>
