@@ -8,106 +8,101 @@ import {
   MessageCircle,
 } from 'lucide-react';
 
-const PRIMARY_WHATSAPP = '5583993725984';   // coloque aqui o seu número no formato DDI DDD + número, ex: 5583993725984
-const PARTNER_WHATSAPP = '5583989060130';   // número do sócio
+const PRIMARY_WHATSAPP = '5583993725984';   // seu número (DDI + DDD + número)
 
-const CONTRACT_TEXT = `CONTRATO DE PRESTAÇÃO DE SERVIÇOS – INTEGRAÇÃO DIGITAL
+const CONTRACT_TEXT = `CONTRATO DE PRESTAÇÃO DE SERVIÇOS – DESENVOLVIMENTO DE SITE INSTITUCIONAL
 
 1. DAS PARTES
 
 CONTRATANTE:
-[NOME COMPLETO DA CLIENTE], CPF [CPF DA CLIENTE], doravante denominada CONTRATANTE.
+ILPI Aconchego dos Avós, inscrita no CNPJ sob nº 61.844.415/0001-36, doravante denominada CONTRATANTE.
 
 CONTRATADO:
-[SEU NOME COMPLETO], brasileiro, maior, autônomo (pessoa física, sem CNPJ), CPF [SEU CPF], doravante denominado CONTRATADO.
+Ricardo Alexandre Brasil Júnior, brasileiro, maior, autônomo (pessoa física, sem CNPJ), CPF 704.908.144-25, doravante denominado CONTRATADO.
 
 2. DO OBJETO
 
-2.1. O presente instrumento tem por objeto a prestação de serviços de integração digital entre as plataformas Bling, Nuvemshop e Shopee da CONTRATANTE, incluindo configuração, testes e treinamento inicial de uso.
+2.1. O presente instrumento tem por objeto a prestação de serviços de criação e desenvolvimento de uma landing page institucional (site de página única) para a ILPI Aconchego dos Avós, incluindo layout, desenvolvimento front-end, configurações básicas e publicação em ambiente de hospedagem.
 
-2.2. O objetivo do projeto é centralizar estoque, pedidos e catálogo em um único fluxo, reduzindo retrabalho, evitando furos de estoque e preparando a operação da CONTRATANTE para crescimento estruturado.
+2.2. O objetivo do projeto é apresentar a ILPI Aconchego dos Avós de forma profissional, acolhedora e clara, destacando seus serviços, estrutura e diferenciais, com canais de contato facilitados para familiares interessados.
 
 3. DO ESCOPO DOS SERVIÇOS
 
 3.1. O CONTRATADO se compromete a executar, no mínimo, as seguintes atividades:
-a) Mapeamento da operação atual da CONTRATANTE, com entendimento de processos de cadastro, vendas e controle de estoque;
-b) Configuração inicial do Bling para gestão de produtos, estoque e pedidos;
-c) Integração Bling ↔ Nuvemshop, com sincronização de produtos e estoque, conforme recursos disponíveis na plataforma;
-d) Integração Bling ↔ Shopee, com sincronização de produtos e estoque, conforme recursos disponíveis na plataforma;
-e) Realização de testes práticos com produtos piloto e simulação de vendas para validação do fluxo;
-f) Ajustes pontuais decorrentes dos testes, dentro do escopo inicialmente definido;
-g) Treinamento inicial com a CONTRATANTE, focado no uso básico do fluxo implementado (cadastro de produtos, acompanhamento de pedidos, visão de estoque), em encontros online ou presenciais, a serem definidos em comum acordo.
+a) Definição da estrutura da landing page (seções, blocos de conteúdo e navegação);
+b) Criação do layout com base na identidade visual da ILPI Aconchego dos Avós;
+c) Desenvolvimento do site em tecnologia moderna (React/Vite ou similar), responsivo para dispositivos móveis e computadores;
+d) Criação de seções como: apresentação da ILPI, diferenciais de cuidado, estrutura, serviços, depoimentos (se fornecidos), dúvidas frequentes (se fornecidas) e área de contato;
+e) Inclusão de botões de contato via WhatsApp e/ou formulário de contato simples;
+f) Configurações básicas de SEO on-page (títulos, descrições e textos otimizados de forma simples);
+g) Publicação do site em serviço de hospedagem contratado pela CONTRATANTE (HostGator ou equivalente), incluindo apontamento de domínio, se necessário;
+h) Ajustes pontuais após o go-live, dentro de um período de estabilização previamente combinado entre as partes.
 
-3.2. Qualquer atividade fora desse escopo (como novas integrações, automações adicionais, relatórios avançados ou reestruturações significativas nas plataformas) será considerada serviço adicional e deverá ser previamente discutida e aprovada entre as partes, com orçamento próprio ou aditivo.
+3.2. Qualquer atividade que extrapole o escopo descrito acima (como desenvolvimento de novas páginas, integrações complexas adicionais, áreas restritas, painéis administrativos, sistemas de cadastro interno ou funcionalidades avançadas) será considerada serviço adicional e deverá ser discutida e aprovada em orçamento à parte.
 
 4. DAS ENTREGAS, PRAZOS E TREINAMENTO
 
-4.1. A data de entrega do projeto (go-live) será ajustada em comum acordo entre as partes, levando em consideração:
-– tempo necessário para configuração e integrações;
-– disponibilidade da CONTRATANTE para testes;
-– agendamento dos encontros de treinamento.
+4.1. A data de entrega do projeto (go-live) será ajustada em comum acordo entre CONTRATANTE e CONTRATADO, levando em consideração:
+– a disponibilidade de conteúdos (textos, fotos, logotipo) fornecidos pela CONTRATANTE;
+– o tempo de desenvolvimento e testes;
+– a liberação de acesso à hospedagem e ao domínio.
 
-4.2. Entende-se por entrega do projeto (go-live) o momento em que:
-a) o fluxo Bling ↔ Nuvemshop ↔ Shopee estiver configurado e funcional para operação real;
-b) tiverem sido realizados os testes acordados;
-c) a CONTRATANTE tiver recebido o treinamento inicial previsto na cláusula 3.
+4.2. Entende-se por entrega (go-live) o momento em que:
+a) o site estiver publicado no domínio ou subdomínio indicado pela CONTRATANTE;
+b) as principais seções acordadas estiverem implementadas e funcionais;
+c) tiverem sido realizados os testes básicos de navegação em dispositivos desktop e mobile.
 
-4.3. Etapas adicionais de treinamento, que extrapolem o conteúdo e a carga prevista no treinamento inicial (por exemplo, treinamentos para novas pessoas da equipe ou aprofundamentos em áreas não cobertas no escopo), serão tratadas como serviços adicionais, com valores a combinar.
+4.3. O CONTRATADO poderá disponibilizar uma breve orientação (online) sobre o uso básico do site, se houver painel de gerenciamento simples ou se for necessário explicar pontos específicos de operação.
 
 5. DO VALOR E FORMA DE PAGAMENTO
 
-5.1. O valor de referência do projeto é composto por:
-– Valor do projeto: R$ 1.349,07;
-– Taxa de implementação (35%): R$ 472,17.
+5.1. O valor do projeto de desenvolvimento da landing page é de R$ 800,00 (oitocentos reais).
 
-5.2. Para efeitos práticos de fluxo de caixa e parcelamento, as partes acordam que o valor total a ser pago ao CONTRATADO será de R$ 2.044,10, valor que já contempla o projeto, a taxa de implementação e encargos de parcelamento.
+5.2. As partes acordam que o valor de R$ 800,00 será pago em 10 (dez) parcelas mensais de R$ 80,00 (oitenta reais), com vencimento contado a partir da data de entrega (go-live) do site. A data exata de vencimento será combinada entre as partes, preferencialmente por mensagem escrita (WhatsApp ou e-mail).
 
-5.3. A forma de pagamento acordada é a seguinte:
-a) A CONTRATANTE pagará ao CONTRATADO parcelas mensais de R$ 204,41;
-b) O dia do pagamento será definido com base na data de entrega (go-live): se o projeto for entregue, por exemplo, no dia 10, as próximas parcelas terão vencimento todo dia 10 de cada mês, salvo ajuste em comum acordo caso recaia em feriados ou finais de semana;
-c) Até o 4º (quarto) mês, os pagamentos serão feitos diretamente ao CONTRATADO (por PIX, transferência bancária ou outro meio acordado);
-d) No 5º (quinto) mês, será cobrado, via cartão de crédito, o saldo remanescente do valor total do projeto, sendo facultado à CONTRATANTE parcelar esse saldo diretamente com a operadora do cartão, conforme condições e juros praticados pela instituição financeira;
-e) Quaisquer juros, tarifas ou encargos cobrados pela operadora de cartão na operação descrita na alínea "d" correrão por conta da CONTRATANTE.
+5.3. Além do valor do projeto, haverá:
+a) Taxa de implantação (ativação, configuração, publicação e integrações básicas) no valor de R$ 240,00 (duzentos e quarenta reais), com forma e data de pagamento a combinar entre as partes, preferencialmente próxima ao go-live;
+b) Valor de hospedagem anual (HostGator ou similar), atualmente estimado em R$ 118,75 (cento e dezoito reais e setenta e cinco centavos), a ser pago pela CONTRATANTE de forma única para ativação do plano de hospedagem.
 
-5.4. O não pagamento de qualquer parcela na data ajustada poderá implicar, a critério do CONTRATADO:
+5.4. A soma total estimada do investimento (projeto + taxa de implantação + hospedagem) é de R$ 1.158,75 (um mil cento e cinquenta e oito reais e setenta e cinco centavos), podendo haver pequenas variações no valor da hospedagem conforme promoção ou política da empresa fornecedora.
+
+5.5. O não pagamento de qualquer parcela na data combinada poderá implicar:
 a) suspensão temporária de suporte e atividades relacionadas ao projeto;
-b) atualização do valor em aberto com correção monetária e/ou multa e juros a serem ajustados entre as partes, caso necessário;
-c) negociação de novo cronograma de pagamentos.
+b) renegociação do cronograma de pagamentos entre as partes.
 
-6. DA MANUTENÇÃO, AJUSTES E MELHORIAS FUTURAS
+6. DA MANUTENÇÃO E MELHORIAS FUTURAS
 
-6.1. A presente proposta não inclui manutenção contínua após a estabilização inicial, salvo o acompanhamento já previsto no escopo até o go-live.
+6.1. A presente proposta não inclui manutenção contínua ou plano mensal de suporte após a estabilização inicial.
 
-6.2. Manutenções corretivas pontuais, dentro do que foi configurado originalmente e relacionadas a falhas diretamente ligadas à implementação do CONTRATADO, serão avaliadas caso a caso, sem custo adicional quando se tratar de erro do próprio trabalho executado.
+6.2. Correções de erros diretamente relacionados à implementação do CONTRATADO dentro do escopo definido serão tratadas sem custo adicional dentro de um período razoável após o go-live, a combinar entre as partes.
 
-6.3. Treinamentos adicionais, ajustes nas plataformas que extrapolem o escopo inicial, novas automações, novas integrações, relatórios avançados ou qualquer melhoria estrutural deverão:
-a) ser discutidos previamente entre as partes;
-b) ter novo orçamento ou aditivo de contrato definido;
-c) ser pagos de forma apartada ou, se acordado entre as partes, com reajuste no valor das parcelas futuras.
+6.3. Novas melhorias, alterações de layout, inclusão de novas seções, integrações adicionais ou qualquer outro tipo de evolução do site serão orçadas à parte, podendo ser cobradas:
+a) por demanda fechada (valor único por melhoria), ou
+b) por plano mensal de suporte, caso as partes assim desejem.
 
 7. DAS RESPONSABILIDADES DA CONTRATANTE
 
 7.1. A CONTRATANTE se compromete a:
-a) disponibilizar, em tempo hábil, acessos, logins, senhas e permissões necessários às plataformas envolvidas (Bling, Nuvemshop, Shopee e demais serviços);
-b) fornecer informações atualizadas e verdadeiras sobre produtos, preços, estoque e políticas comerciais;
-c) participar ativamente dos testes e do treinamento, informando ao CONTRATADO eventuais problemas encontrados;
-d) cumprir os prazos de pagamento estabelecidos na cláusula 5.
+a) fornecer logotipo, textos, fotos e demais conteúdos necessários ao site em tempo hábil;
+b) disponibilizar acessos e credenciais para hospedagem e domínio, quando aplicável;
+c) revisar os conteúdos e informar ao CONTRATADO eventuais correções necessárias;
+d) cumprir os prazos de pagamento estabelecidos neste contrato.
 
 8. DAS RESPONSABILIDADES DO CONTRATADO
 
 8.1. O CONTRATADO se compromete a:
 a) executar os serviços com zelo, cuidado técnico e boa-fé;
 b) manter a CONTRATANTE atualizada sobre o andamento do projeto;
-c) tratar de forma confidencial os acessos e informações fornecidos pela CONTRATANTE, utilizando-os exclusivamente para execução do projeto;
-d) entregar o projeto conforme o escopo estabelecido neste instrumento.
+c) tratar de forma confidencial as informações e acessos fornecidos pela CONTRATANTE;
+d) entregar o site conforme o escopo definido neste instrumento.
 
 9. DA CONFIDENCIALIDADE
 
-9.1. Ambas as partes se obrigam a manter sigilo sobre dados, estratégias, senhas, relatórios e quaisquer informações sensíveis às quais tenham acesso em razão deste contrato, não podendo repassá-las a terceiros sem autorização expressa da outra parte.
+9.1. Ambas as partes se obrigam a manter sigilo sobre dados, acessos e informações sensíveis às quais tenham acesso em razão deste contrato, não podendo repassá-las a terceiros sem autorização expressa da outra parte.
 
 10. DA VIGÊNCIA E RESCISÃO
 
-10.1. Este contrato entra em vigor na data da aceitação da proposta pela CONTRATANTE e permanece vigente até a conclusão do projeto e quitação integral dos valores pactuados.
+10.1. Este contrato entra em vigor na data de aceitação da proposta pela CONTRATANTE e permanece vigente até a conclusão do projeto e quitação integral dos valores pactuados.
 
 10.2. O contrato poderá ser rescindido por qualquer das partes, mediante comunicação prévia, preferencialmente por escrito (WhatsApp, e-mail), sendo feito acerto proporcional dos valores referentes às etapas já executadas.
 
@@ -131,165 +126,78 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
 
   if (!isOpen) return null;
 
-  const handleDownloadPDF = async () => {
+  const handleDownloadPDF = () => {
     setIsGeneratingPDF(true);
 
     try {
-      const printWindow = window.open('', '_blank');
-      if (!printWindow) {
+      const win = window.open('', '_blank');
+      if (!win) {
         alert('Por favor, permita pop-ups para baixar o PDF');
         setIsGeneratingPDF(false);
         return;
       }
 
-      printWindow.document.write(`
+      win.document.write(`
         <!DOCTYPE html>
-        <html>
+        <html lang="pt-BR">
           <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Contrato Twork - Integração Digital</title>
+            <meta charset="UTF-8" />
+            <title>Contrato – Landing Page ILPI Aconchego dos Avós</title>
             <style>
               @media print {
                 body { margin: 0; padding: 20px; }
               }
               body {
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                color: #333;
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 40px 20px;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                margin: 40px auto;
+                padding: 0 24px;
+                max-width: 820px;
+                line-height: 1.7;
+                color: #0f172a;
                 background: white;
               }
               h1 {
                 text-align: center;
+                font-size: 22px;
+                margin-bottom: 32px;
                 color: #1e293b;
-                font-size: 24px;
-                margin-bottom: 30px;
-                border-bottom: 3px solid #466FA6;
-                padding-bottom: 15px;
+                border-bottom: 3px solid #BF8C2C;
+                padding-bottom: 16px;
               }
-              h2 {
-                color: #466FA6;
-                font-size: 16px;
-                margin-top: 25px;
-                margin-bottom: 10px;
-              }
-              p {
-                margin-bottom: 12px;
-                text-align: justify;
-              }
-              .party {
-                background: #f1f5f9;
-                padding: 15px;
-                border-left: 4px solid #466FA6;
-                margin-bottom: 15px;
+              pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                font-family: inherit;
+                font-size: 13px;
+                line-height: 1.6;
               }
               .footer {
                 margin-top: 40px;
-                padding-top: 20px;
-                border-top: 2px solid #e2e8f0;
-                text-align: center;
-                font-size: 12px;
+                font-size: 11px;
                 color: #64748b;
+                text-align: center;
+                border-top: 1px solid #e2e8f0;
+                padding-top: 16px;
               }
             </style>
           </head>
           <body>
-            <h1>CONTRATO DE PRESTAÇÃO DE SERVIÇOS<br>INTEGRAÇÃO DIGITAL</h1>
-            
-            <h2>1. DAS PARTES</h2>
-            <div class="party">
-              <strong>CONTRATANTE:</strong><br>
-              Kethelen Kaylanne Galdino Ferreira do Nascimento<br>
-              CPF: 714.297.854-62
-            </div>
-            <div class="party">
-              <strong>CONTRATADO:</strong><br>
-              Ricardo Alexandre Brasil Júnior<br>
-              CPF: 704.908.144-25<br>
-              Autônomo (Pessoa Física)
-            </div>
-
-            <h2>2. DO OBJETO</h2>
-            <p>2.1. O presente instrumento tem por objeto a prestação de serviços de integração digital entre as plataformas Bling, Nuvemshop e Shopee da CONTRATANTE, incluindo configuração, testes e treinamento inicial de uso.</p>
-            <p>2.2. O objetivo do projeto é centralizar estoque, pedidos e catálogo em um único fluxo, reduzindo retrabalho, evitando furos de estoque e preparando a operação da CONTRATANTE para crescimento estruturado.</p>
-
-            <h2>3. DO ESCOPO DOS SERVIÇOS</h2>
-            <p>3.1. O CONTRATADO se compromete a executar, no mínimo, as seguintes atividades:</p>
-            <p>a) Mapeamento da operação atual da CONTRATANTE, com entendimento de processos de cadastro, vendas e controle de estoque;</p>
-            <p>b) Configuração inicial do Bling para gestão de produtos, estoque e pedidos;</p>
-            <p>c) Integração Bling ↔ Nuvemshop, com sincronização de produtos e estoque, conforme recursos disponíveis na plataforma;</p>
-            <p>d) Integração Bling ↔ Shopee, com sincronização de produtos e estoque, conforme recursos disponíveis na plataforma;</p>
-            <p>e) Realização de testes práticos com produtos piloto e simulação de vendas para validação do fluxo;</p>
-            <p>f) Ajustes pontuais decorrentes dos testes, dentro do escopo inicialmente definido;</p>
-            <p>g) Treinamento inicial com a CONTRATANTE, focado no uso básico do fluxo implementado (cadastro de produtos, acompanhamento de pedidos, visão de estoque), em encontros online ou presenciais, a serem definidos em comum acordo.</p>
-            <p>3.2. Qualquer atividade fora desse escopo (como novas integrações, automações adicionais, relatórios avançados ou reestruturações significativas nas plataformas) será considerada serviço adicional e deverá ser previamente discutida e aprovada entre as partes, com orçamento próprio ou aditivo.</p>
-
-            <h2>4. DAS ENTREGAS, PRAZOS E TREINAMENTO</h2>
-            <p>4.1. A data de entrega do projeto (go-live) será ajustada em comum acordo entre as partes, levando em consideração: tempo necessário para configuração e integrações; disponibilidade da CONTRATANTE para testes; agendamento dos encontros de treinamento.</p>
-            <p>4.2. Entende-se por entrega do projeto (go-live) o momento em que: a) o fluxo Bling ↔ Nuvemshop ↔ Shopee estiver configurado e funcional para operação real; b) tiverem sido realizados os testes acordados; c) a CONTRATANTE tiver recebido o treinamento inicial previsto na cláusula 3.</p>
-            <p>4.3. Etapas adicionais de treinamento, que extrapolem o conteúdo e a carga prevista no treinamento inicial (por exemplo, treinamentos para novas pessoas da equipe ou aprofundamentos em áreas não cobertas no escopo), serão tratadas como serviços adicionais, com valores a combinar.</p>
-
-            <h2>5. DO VALOR E FORMA DE PAGAMENTO</h2>
-            <p>5.1. O valor de referência do projeto é composto por:</p>
-            <p>– Valor do projeto: R$ 1.349,07<br>
-            – Taxa de implementação (35%): R$ 472,17</p>
-            <p>5.2. Para efeitos práticos de fluxo de caixa e parcelamento, as partes acordam que o valor total a ser pago ao CONTRATADO será de R$ 2.044,10, valor que já contempla o projeto, a taxa de implementação e encargos de parcelamento.</p>
-            <p>5.3. A forma de pagamento acordada é a seguinte:</p>
-            <p>a) A CONTRATANTE pagará ao CONTRATADO parcelas mensais de R$ 204,41;</p>
-            <p>b) O dia do pagamento será definido com base na data de entrega (go-live): se o projeto for entregue, por exemplo, no dia 10, as próximas parcelas terão vencimento todo dia 10 de cada mês, salvo ajuste em comum acordo caso recaia em feriados ou finais de semana;</p>
-            <p>c) Até o 4º (quarto) mês, os pagamentos serão feitos diretamente ao CONTRATADO (por PIX, transferência bancária ou outro meio acordado);</p>
-            <p>d) No 5º (quinto) mês, será cobrado, via cartão de crédito, o saldo remanescente do valor total do projeto, sendo facultado à CONTRATANTE parcelar esse saldo diretamente com a operadora do cartão, conforme condições e juros praticados pela instituição financeira;</p>
-            <p>e) Quaisquer juros, tarifas ou encargos cobrados pela operadora de cartão na operação descrita na alínea "d" correrão por conta da CONTRATANTE.</p>
-            <p>5.4. O não pagamento de qualquer parcela na data ajustada poderá implicar, a critério do CONTRATADO: a) suspensão temporária de suporte e atividades relacionadas ao projeto; b) atualização do valor em aberto com correção monetária e/ou multa e juros a serem ajustados entre as partes, caso necessário; c) negociação de novo cronograma de pagamentos.</p>
-
-            <h2>6. DA MANUTENÇÃO, AJUSTES E MELHORIAS FUTURAS</h2>
-            <p>6.1. A presente proposta não inclui manutenção contínua após a estabilização inicial, salvo o acompanhamento já previsto no escopo até o go-live.</p>
-            <p>6.2. Manutenções corretivas pontuais, dentro do que foi configurado originalmente e relacionadas a falhas diretamente ligadas à implementação do CONTRATADO, serão avaliadas caso a caso, sem custo adicional quando se tratar de erro do próprio trabalho executado.</p>
-            <p>6.3. Treinamentos adicionais, ajustes nas plataformas que extrapolem o escopo inicial, novas automações, novas integrações, relatórios avançados ou qualquer melhoria estrutural deverão: a) ser discutidos previamente entre as partes; b) ter novo orçamento ou aditivo de contrato definido; c) ser pagos de forma apartada ou, se acordado entre as partes, com reajuste no valor das parcelas futuras.</p>
-
-            <h2>7. DAS RESPONSABILIDADES DA CONTRATANTE</h2>
-            <p>7.1. A CONTRATANTE se compromete a:</p>
-            <p>a) disponibilizar, em tempo hábil, acessos, logins, senhas e permissões necessários às plataformas envolvidas (Bling, Nuvemshop, Shopee e demais serviços);</p>
-            <p>b) fornecer informações atualizadas e verdadeiras sobre produtos, preços, estoque e políticas comerciais;</p>
-            <p>c) participar ativamente dos testes e do treinamento, informando ao CONTRATADO eventuais problemas encontrados;</p>
-            <p>d) cumprir os prazos de pagamento estabelecidos na cláusula 5.</p>
-
-            <h2>8. DAS RESPONSABILIDADES DO CONTRATADO</h2>
-            <p>8.1. O CONTRATADO se compromete a:</p>
-            <p>a) executar os serviços com zelo, cuidado técnico e boa-fé;</p>
-            <p>b) manter a CONTRATANTE atualizada sobre o andamento do projeto;</p>
-            <p>c) tratar de forma confidencial os acessos e informações fornecidos pela CONTRATANTE, utilizando-os exclusivamente para execução do projeto;</p>
-            <p>d) entregar o projeto conforme o escopo estabelecido neste instrumento.</p>
-
-            <h2>9. DA CONFIDENCIALIDADE</h2>
-            <p>9.1. Ambas as partes se obrigam a manter sigilo sobre dados, estratégias, senhas, relatórios e quaisquer informações sensíveis às quais tenham acesso em razão deste contrato, não podendo repassá-las a terceiros sem autorização expressa da outra parte.</p>
-
-            <h2>10. DA VIGÊNCIA E RESCISÃO</h2>
-            <p>10.1. Este contrato entra em vigor na data da aceitação da proposta pela CONTRATANTE e permanece vigente até a conclusão do projeto e quitação integral dos valores pactuados.</p>
-            <p>10.2. O contrato poderá ser rescindido por qualquer das partes, mediante comunicação prévia, preferencialmente por escrito (WhatsApp, e-mail), sendo feito acerto proporcional dos valores referentes às etapas já executadas.</p>
-
-            <h2>11. DISPOSIÇÕES GERAIS</h2>
-            <p>11.1. Este instrumento tem caráter de proposta/contrato simplificado entre pessoas físicas, não substituindo eventual contrato formal elaborado por profissional jurídico, caso as partes assim desejem.</p>
-            <p>11.2. Os casos omissos serão resolvidos de comum acordo entre CONTRATANTE e CONTRATADO.</p>
-
+            <h1>CONTRATO – DESENVOLVIMENTO DE SITE INSTITUCIONAL<br>ILPI ACONCHEGO DOS AVÓS</h1>
+            <pre>${CONTRACT_TEXT.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
             <div class="footer">
-              <p>Documento gerado digitalmente em ${new Date().toLocaleDateString('pt-BR')}</p>
-              <p>A2 Data | Projeto de Integração Digital</p>
+              Documento gerado digitalmente em ${new Date().toLocaleDateString('pt-BR')} • A2 Data | Projeto Landing Page Institucional
             </div>
           </body>
         </html>
       `);
 
-      printWindow.document.close();
+      win.document.close();
 
       setTimeout(() => {
-        printWindow.focus();
-        printWindow.print();
+        win.focus();
+        win.print();
         setIsGeneratingPDF(false);
-      }, 250);
+      }, 300);
     } catch (error) {
       console.error('Erro ao gerar PDF:', error);
       alert('Erro ao gerar PDF. Por favor, tente novamente.');
@@ -305,25 +213,23 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
     }
 
     const message = encodeURIComponent(
-      'Olá, confirmo que li e aceito a proposta de Integração Digital Twork, no valor de R$ 2.044,10, com parcelas mensais de R$ 204,41, conforme contrato enviado. A data de pagamento será contada a partir da entrega (go-live) acordada em conjunto.'
+      'Olá, confirmo que li e aceito a proposta de desenvolvimento da landing page da ILPI Aconchego dos Avós, com valor de R$ 800,00 pagos em 10x de R$ 80,00, mais taxa de implantação de R$ 240,00 e hospedagem HostGator de R$ 118,75, conforme contrato enviado. A data de vencimento das parcelas será contada a partir da entrega (go-live) do site, a ser combinada entre as partes.'
     );
 
+    // Envia apenas para o seu número
     window.open(`https://wa.me/${PRIMARY_WHATSAPP}?text=${message}`, '_blank');
-
-    setTimeout(() => {
-      window.open(`https://wa.me/${PARTNER_WHATSAPP}?text=${message}`, '_blank');
-    }, 500);
 
     setShowSuccess(true);
   };
 
   const handleDoubtContact = () => {
     const message = encodeURIComponent(
-      'Olá! Tenho algumas dúvidas sobre a proposta de Integração Digital Twork. Poderia me ajudar?'
+      'Olá! Tenho algumas dúvidas sobre a proposta de desenvolvimento da landing page da ILPI Aconchego dos Avós. Poderia me ajudar?'
     );
     window.open(`https://wa.me/${PRIMARY_WHATSAPP}?text=${message}`, '_blank');
   };
 
+  // Modal de dúvidas
   if (type === 'doubt') {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
@@ -341,7 +247,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
           </button>
 
           <div className="text-center mb-8 mt-4">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-wider mb-4">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-200 text-amber-700 text-xs font-bold uppercase tracking-wider mb-4">
               <MessageCircle size={14} />
               Tire suas dúvidas
             </div>
@@ -349,13 +255,13 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
               Estamos aqui para ajudar
             </h2>
             <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-              Entre em contato conosco pelo WhatsApp e responderemos todas as suas perguntas sobre a proposta.
+              Entre em contato conosco pelo WhatsApp e responderemos todas as suas perguntas sobre a proposta da ILPI Aconchego dos Avós.
             </p>
           </div>
 
           <button
             onClick={handleDoubtContact}
-            className="w-full flex items-center justify-center gap-3 bg-gradient-to-r from-[#043959] via-[#466FA6] to-[#AD8DF2] text-white font-bold text-base sm:text-lg py-4 sm:py-5 px-6 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+            className="w-full flex items-center justify-center gap-3 bg-gradient-to-r from-[#734002] via-[#8C5C03] to-[#F2D06B] text-white font-bold text-base sm:text-lg py-4 sm:py-5 px-6 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
           >
             <MessageCircle size={20} />
             Falar pelo WhatsApp
@@ -366,7 +272,6 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
   }
 
   // type === 'approval'
-// type === 'approval'
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden">
       <div
@@ -376,7 +281,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
 
       <div className="relative bg-white w-full h-full md:h-auto md:max-h-[95vh] md:rounded-3xl md:shadow-2xl md:max-w-7xl md:my-4 overflow-hidden flex flex-col">
         {/* Barra superior colorida */}
-        <div className="h-1.5 md:h-2 w-full bg-gradient-to-r from-[#043959] via-[#466FA6] to-[#AD8DF2] flex-shrink-0" />
+        <div className="h-1.5 md:h-2 w-full bg-gradient-to-r from-[#734002] via-[#8C5C03] to-[#F2D06B] flex-shrink-0" />
 
         <button
           onClick={onClose}
@@ -390,9 +295,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
             <div className="p-4 sm:p-6 lg:p-8">
               {/* Header Badge */}
               <div className="mb-6 md:mb-8">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 text-purple-700 text-xs font-bold uppercase tracking-wider">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 text-amber-700 text-xs font-bold uppercase tracking-wider">
                   <FileText size={16} />
-                  Aprovação de Proposta – Integração Digital
+                  Aprovação de Proposta – Landing Page Institucional
                 </div>
               </div>
 
@@ -404,63 +309,80 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                       Confirme sua proposta com segurança
                     </h2>
                     <p className="text-slate-600 text-base leading-relaxed">
-                      Esta proposta formaliza o projeto de integração entre{' '}
-                      <span className="font-semibold text-[#466FA6]">Bling</span>,{' '}
-                      <span className="font-semibold text-[#466FA6]">Nuvemshop</span> e{' '}
-                      <span className="font-semibold text-[#466FA6]">Shopee</span>, incluindo configuração,
-                      testes e treinamento inicial.
+                      Esta proposta formaliza o desenvolvimento da{' '}
+                      <span className="font-semibold text-[#BF8C2C]">landing page institucional</span> da{' '}
+                      <span className="font-semibold text-[#BF8C2C]">ILPI Aconchego dos Avós</span>, incluindo layout,
+                      desenvolvimento, configuração, publicação e orientações iniciais de uso.
                     </p>
                   </div>
 
                   {/* Bloco de investimento */}
-                  <div className="rounded-2xl border-2 border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100/50 p-5 shadow-sm">
-                    <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">
+                  <div className="rounded-2xl border-2 border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-5 shadow-sm">
+                    <p className="text-xs font-bold uppercase tracking-widest text-amber-700 mb-3">
                       💰 Investimento acordado
                     </p>
                     <div className="space-y-4">
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm font-medium text-slate-600">Valor total</span>
-                        <span className="text-3xl font-black text-slate-900">
-                          R$ 2.044,10
-                        </span>
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm font-medium text-slate-600">Projeto (landing page)</span>
+                          <span className="text-2xl font-black text-slate-900">R$ 800,00</span>
+                        </div>
+                        <div className="flex items-center justify-between pl-4">
+                          <span className="text-xs text-slate-500">Parcelas do projeto</span>
+                          <span className="text-lg font-bold text-[#BF8C2C]">10x de R$ 80,00</span>
+                        </div>
                       </div>
-                      <div className="flex items-center justify-between pt-3 border-t border-slate-200">
-                        <span className="text-sm font-medium text-slate-600">Parcelas mensais</span>
-                        <span className="text-xl font-bold text-[#466FA6]">
-                          10x de R$ 204,41
-                        </span>
+
+                      <div className="pt-3 border-t border-amber-200 space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm font-medium text-slate-600">Taxa de implantação</span>
+                          <span className="text-xl font-bold text-slate-900">R$ 240,00</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-sm font-medium text-slate-600">Hospedagem anual</span>
+                          <span className="text-xl font-bold text-slate-900">R$ 118,75</span>
+                        </div>
                       </div>
+
+                      <div className="pt-3 border-t-2 border-amber-300">
+                        <div className="flex items-center justify-between">
+                          <span className="text-base font-bold text-slate-900">Total estimado</span>
+                          <span className="text-3xl font-black text-[#BF8C2C]">R$ 1.158,75</span>
+                        </div>
+                      </div>
+
                       <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 mt-3">
                         <p className="text-xs text-blue-800 leading-relaxed">
-                          💡 <strong>Importante:</strong> O pagamento inicia após a entrega (go-live), com data definida em conjunto.
+                          💡 <strong>Importante:</strong> As parcelas do projeto começam após a entrega (go-live) do site,
+                          e a taxa de implantação + hospedagem podem ser combinadas para data próxima à publicação.
                         </p>
                       </div>
                     </div>
                   </div>
 
                   {/* Etapas em destaque */}
-                  <div className="rounded-2xl border-2 border-purple-200 bg-gradient-to-br from-purple-50 to-blue-50 p-5 shadow-sm">
+                  <div className="rounded-2xl border-2 border-amber-200 bg-gradient-to-br from-orange-50 to-amber-50 p-5 shadow-sm">
                     <p className="text-xs font-bold uppercase tracking-widest text-slate-600 mb-3">
                       📋 Como funciona
                     </p>
                     <ol className="space-y-3 text-sm text-slate-700">
                       <li className="flex items-start gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#466FA6] text-white text-xs font-bold flex items-center justify-center">1</span>
-                        <span>Leia o contrato e confirme o aceite digital</span>
+                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#BF8C2C] text-white text-xs font-bold flex items-center justify-center">1</span>
+                        <span>Leia o contrato completo e confira todas as condições</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#466FA6] text-white text-xs font-bold flex items-center justify-center">2</span>
-                        <span>Envio automático da aprovação via WhatsApp</span>
+                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#BF8C2C] text-white text-xs font-bold flex items-center justify-center">2</span>
+                        <span>Marque o aceite e envie a aprovação automaticamente pelo WhatsApp</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#466FA6] text-white text-xs font-bold flex items-center justify-center">3</span>
-                        <span>Alinhamento de data e início da implementação</span>
+                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#BF8C2C] text-white text-xs font-bold flex items-center justify-center">3</span>
+                        <span>Alinhamos a data de go-live e iniciamos o desenvolvimento do site</span>
                       </li>
                     </ol>
                   </div>
 
                   {/* Aceite */}
-                  <div className="rounded-2xl border-2 border-purple-300 bg-gradient-to-br from-purple-50 to-blue-50 p-5 shadow-lg">
+                  <div className="rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-orange-50 p-5 shadow-lg">
                     <label className="flex items-start gap-4 cursor-pointer group">
                       <input
                         type="checkbox"
@@ -469,10 +391,10 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                           setHasAccepted(e.target.checked);
                           setShowError(false);
                         }}
-                        className="mt-1 w-6 h-6 rounded-md border-2 border-slate-400 text-[#466FA6] focus:ring-2 focus:ring-[#466FA6]/30 cursor-pointer transition-all"
+                        className="mt-1 w-6 h-6 rounded-md border-2 border-amber-400 text-[#BF8C2C] focus:ring-2 focus:ring-[#BF8C2C]/30 cursor-pointer transition-all"
                       />
-                      <span className="flex-1 text-sm font-bold text-slate-900 group-hover:text-[#466FA6] transition-colors leading-relaxed">
-                       Declaro que li e estou de acordo com todos os termos deste contrato e com as condições de pagamento descritas
+                      <span className="flex-1 text-sm font-bold text-slate-900 group-hover:text-[#BF8C2C] transition-colors leading-relaxed">
+                        Declaro que li e estou de acordo com todos os termos deste contrato e com as condições de pagamento descritas
                       </span>
                     </label>
                     <p className="text-xs text-slate-600 mt-3 ml-10 leading-relaxed">
@@ -489,7 +411,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                     </div>
                   )}
 
-                  {/* Botões - Ordem invertida no mobile */}
+                  {/* Botões */}
                   <div className="flex flex-col-reverse sm:flex-row gap-3 pt-2">
                     <button
                       onClick={handleDownloadPDF}
@@ -497,12 +419,12 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                       className="flex-1 inline-flex items-center justify-center gap-3 border-2 border-slate-300 bg-white text-slate-700 font-bold text-base py-4 px-6 rounded-xl hover:bg-slate-50 hover:border-slate-400 active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
                     >
                       <Download size={20} />
-                      {isGeneratingPDF ? 'Gerando...' : 'Baixar PDF'}
+                      {isGeneratingPDF ? 'Gerando...' : 'Baixar contrato em PDF'}
                     </button>
 
                     <button
                       onClick={handleSendApproval}
-                      className="flex-1 inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#466FA6] via-[#AD8DF2] to-[#B79BF2] text-white font-black text-base py-4 px-6 rounded-xl shadow-xl shadow-purple-300/40 hover:shadow-2xl hover:scale-105 active:scale-100 transition-all duration-200"
+                      className="flex-1 inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#8C5C03] via-[#BF8C2C] to-[#F2D06B] text-white font-black text-base py-4 px-6 rounded-xl shadow-xl shadow-amber-300/40 hover:shadow-2xl hover:scale-105 active:scale-100 transition-all duration-200"
                     >
                       <CheckCircle2 size={20} />
                       Enviar aprovação
@@ -522,14 +444,14 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                   </div>
 
                   <div className="flex-1 rounded-xl bg-white border-2 border-slate-200 shadow-inner overflow-hidden">
-                    <div className="h-[400px] lg:h-[600px] overflow-y-auto p-4 lg:p-5 text-sm text-slate-800 leading-relaxed whitespace-pre-wrap scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-slate-100">
+                    <div className="h-[400px] lg:h-[840px] overflow-y-auto p-4 lg:p-5 text-sm text-slate-800 leading-relaxed whitespace-pre-wrap scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-slate-100">
                       {CONTRACT_TEXT}
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-xl p-3 mt-4">
+                  <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-3 mt-4">
                     <p className="text-xs text-slate-700 leading-relaxed">
-                      💡 <strong>Dica:</strong> Baixe o PDF para assinar digitalmente e arquivar com segurança.
+                      💡 <strong>Dica:</strong> Use o PDF para arquivar o contrato ou assinar digitalmente se preferir.
                     </p>
                   </div>
                 </div>
@@ -546,12 +468,12 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, type, onClose }) =>
                 Aprovação enviada! 🎉
               </h3>
               <p className="text-slate-600 leading-relaxed mb-8 text-base">
-                Sua aprovação foi encaminhada com sucesso pelo WhatsApp. Em breve retornaremos
-                com o alinhamento da data de entrega e próximos passos.
+                Sua confirmação foi enviada com sucesso pelo WhatsApp. Em breve retornaremos
+                com o alinhamento da data de go-live e próximos passos para o site da ILPI Aconchego dos Avós.
               </p>
               <button
                 onClick={onClose}
-                className="px-8 py-3 bg-gradient-to-r from-[#466FA6] to-[#AD8DF2] text-white font-bold rounded-xl hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg text-base"
+                className="px-8 py-3 bg-gradient-to-r from-[#8C5C03] to-[#F2D06B] text-white font-bold rounded-xl hover:scale-105 active:scale-95 transition-all duration-200 shadow-lg text-base"
               >
                 Fechar
               </button>
